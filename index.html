@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ejercicio de recuperacion de JS para 2 DAW, AJAX con JS">
+    <meta name="title" content="Comuncacion asincrona en javascript con AJAX.">
+    <meta name="keywords" content="JAVASCRIPT, ADRISC, DAW, Capa cliente, AJAX">
+    <meta name="author" content="Adrián Sánchez Carchano">
+    <title>AJAX con JAVASCRIPT</title>
+</head>
+<body>
+	<div id="wrapper">
+		<h1>El tiempo en tu ciudad</h1>
+		<p>
+			Introduce el código de tu ciudad
+			<input id="code_input" type="text" name="code">
+			<span id="information"></span>
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th>Máxima</th>
+					<th>Mínima</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>En la ultima búsqueda</td>
+					<td id ="maximLastSearch"></td>
+					<td id="minimLastSearch"></td>					
+				</tr>
+				<tr>
+					<td>En esta sesión</td>
+					<td id="maximLocal"></td>
+					<td id="minimLocal"></td>
+				</tr>
+				<tr>
+					<td>En general</td>
+					<td id="maximGeneral"></td>
+					<td id="minimGeneral"></td>
+				</tr>
+			</tbody>
+		</table>	
+		<table>
+			<thead>
+				<tr>
+					<th>Dia</th>
+					<th>Hora</th>
+					<th>Estado</th>
+					<th>Tº</th>
+					<th>Viento</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">				
+			</tbody>
+		</table>
+	</div>	
+	<script src="scripts/scripts.js"></script>
+</body>
+
+</html>
