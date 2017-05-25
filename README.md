@@ -1,1 +1,2 @@
 # JAVASCRIPT-AJAX-What-Temperature
+Ejercicio relizado durante el curso de CFGS DAW, desarrollo de aplicaciones web. En el que se introducir un código que pertenece a una ciudad y se mostrará la previsión del tiempo para esta misma, la consulta se realiza a través de AJAX a la página http://xml.tutiempo.net, que nos devolverá un xml con la información y la trataremos como toca para mostrarla. En este ejercicio también se crearán nuevos nodos de una tabla para mostrar la infomración.
